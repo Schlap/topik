@@ -1299,7 +1299,7 @@ p.para1 {
 	width: 74%;
 	}
 	.header-left {
-	margin-left: 5em;
+	float: right;
 	}
 	.top-nav ul li a {
 	padding: 2.2em 1.1em 1.6em 1.1em;
