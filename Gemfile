@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-group :production do
+group :development, :production do
     gem "pg"
     gem "dm-postgres-adapter"
     gem "sinatra"

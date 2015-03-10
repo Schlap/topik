@@ -11,7 +11,7 @@ feature "User submits email" do
   end
 
     def submit_email(email)
-      within(".new-email") do
+      within(".form") do
       fill_in "email", :with => email
       click_button 'send'
     end
